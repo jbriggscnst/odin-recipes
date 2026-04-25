@@ -1,0 +1,1 @@
+Basic recipe website for The Odin Project, to practice working with HTML to build a simple functioning website, to then later decorate with css.
