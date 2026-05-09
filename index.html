@@ -4,13 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/hummus.html">Hummus</a></li>
-        <li><a href="./recipes/pita-bread.html">Pita bread</a></li>
-        <li><a href="./recipes/falafel.html">Falafel</a></li>
-    </ul>
+    <div class="container">
+        <header>
+            <h1 class="title">Odin Recipes</h1>
+            <p class="subtitle">
+                Simple vegan Mediterranean recipes, from my home to yours.
+            </p>
+        </header>
+        
+        <main>
+            <ul class="recipe-list">
+                <li class="recipe-card">
+                    <a href="./recipes/hummus.html">
+                        <img src="./images/hummus.avif" alt="Hummus">
+
+                        <div class="recipe-info">
+                                <h2>Hummus</h2>
+                                <p>Creamy chickpea dip with tahini and lemon.</p>
+                        </div>
+                    </a>
+
+                </li>
+
+                <li class="recipe-card">
+                    <a href="./recipes/pita-bread.html">
+                        <img src="./images/pitas.jpg" alt="Pita bread">
+
+                        <div class="recipe-info">
+                                <h2>Pita Bread</h2>
+                                <p>Soft and fluffy bread perfect for sandwiches and wraps.</p>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="recipe-card">
+                    <a href="./recipes/falafel.html">
+                        <img src="./images/falafel.jpg" alt="Falafel">
+
+                        <div class="recipe-info">
+                                <h2>Falafel</h2>
+                                <p>Spiced chickpea fritters with a crispy exterior and tender interior.</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </main>
+    </div>
 </body>
 </html>
